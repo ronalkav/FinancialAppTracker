@@ -28,6 +28,7 @@ body {
   color: var(--text-color);
 }
 
+
 .container {
   position: relative;
   margin: 30px auto;
@@ -38,6 +39,8 @@ body {
   border-radius: 8px;
   box-shadow: var(--box-shadow);
 }
+
+
 
 h3, h4 {
   font-size: 24px;
@@ -151,18 +154,16 @@ input, select {
 .delete-btn:hover {
   background-color: darken(var(--secondary-color), 10%);
 }
-/*
+
 body {
-  background-image: url('space2image.webp');
+  background-image: url('787d61ed4e0d06b6c18ab2000baf14e0.gif');
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh; 
+  min-height: 50vh; 
   margin: 0; 
-  display: flex;
+  display: flexbox;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-} 
-
-*/
+}
