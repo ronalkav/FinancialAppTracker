@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-persist": "^1.0.2",
+    "react-redux": "^9.1.0",
+    "redux": "^5.0.1"
+  }
+}
