@@ -5,6 +5,7 @@ import AddTransactions from '../components/AddTransactions';
 import { addTransaction, deleteTransaction } from '../redux/actions';
 import TransactionsList from '../components/TransactionsList';
 import IncomeExpense from '../components/IncomeExpense';
+import PieChart from '../components/PieChart'; // Import the PieChart component
 
 export class Main extends Component {
   render() {
@@ -17,6 +18,7 @@ export class Main extends Component {
         <AddTransactions 
             addTransaction={(transaction) => addTransaction(transaction)}
             id={transactions[0] ? transactions[0].id + 1 :1 }/>
+         <PieChart transactions={transactions} />
       </div>
     )
   }
