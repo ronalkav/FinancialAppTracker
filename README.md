@@ -1,4 +1,5 @@
 # This is FinTech Frontier!
+- Check out our Devpost: https://devpost.com/software/fintech-frontier-app
 
 ## Inspiration:
 - Inspired by the intuitive functionality of the Spending Analyzer in the Discover app, we created a web app to help users quickly and easily track their spending habits and follow a set budget.
